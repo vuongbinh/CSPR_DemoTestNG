@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="CSPR_DemoTestNG" verbose="1" >
+    <test name="Regression DEMO">
+        <parameter name="browserName" value="chrome"></parameter>
+        <classes>
+            <class name="CSPRDemo.modules.CS_LoginTest"/>
+        </classes>
+    </test>
+    <test name="Regression DEMO-firefox">
+        <parameter name="browserName" value="firefox"></parameter>
+        <classes>
+            <class name="CSPRDemo.modules.CS_LoginTest"/>
+        </classes>
+    </test>
+</suite>
