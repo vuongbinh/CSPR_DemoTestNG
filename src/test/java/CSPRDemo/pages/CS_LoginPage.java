@@ -28,4 +28,8 @@ public class CS_LoginPage extends pageController{
         driver.findElement(elements.getBtnNext()).click();
         wait.until(ExpectedConditions.invisibilityOfElementLocated(elements.getIcoLoading()));
     }
+//    public String getVerificationCode(String email){
+//
+//        return null;
+//    }
 }
